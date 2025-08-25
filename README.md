@@ -83,6 +83,20 @@ Lógica de contagem: app_3.py
 
 ## Como rodar?
 
-Primeiro crie um ambiente virtual
-Agora instale com pip install -r requirements.txt
+1. Criar ambiente virtual e ativar:
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+.\venv\Scripts\activate    # Windows
+```
+
+2. Instalar dependências:
+```bash
+pip install -r requirements.txt
+```
+
+3. Executar o código principal:
+```bash
+python app_3.py --video_file_path "caminho/do/video.mp4"
+```
 
