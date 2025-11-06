@@ -81,11 +81,38 @@ Identificação dos objetos na zona: step_4.py
 
 Lógica de contagem: app_3.py
 
-## Como rodar?
+### Como rodar?
+#### Tecnologias Utilizadas
+
+- *Python 3.11.9*
+- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+- [Supervision](https://github.com/roboflow/supervision)
+- [OpenCV (cv2)](https://opencv.org/)
+- *NumPy*
+- *Argparse*
+
+---
+
+#### ⚙ Pré-requisitos
+
+Antes de rodar o projeto, verifique se você possui:
+- Python *3.11.9* instalado  
+  (ou a mesma versão usada no desenvolvimento, para evitar erros de compatibilidade)  
+- Git instalado (para clonar o repositório)
+
+---
+
+### Passo a Passo
+
+#### Clonar o repositório
+```bash
+git clone https://github.com/SThalyta/Traffic_Analytics.git
+cd Traffic_Analytics
+```
 
 1. Criar ambiente virtual e ativar:
 ```bash
-python -m venv venv
+python -m venv .venv
 source venv/bin/activate   # Linux/Mac
 .\venv\Scripts\activate    # Windows
 ```
